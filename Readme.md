@@ -15,6 +15,8 @@ ws.on('message', (msgString: string) => {
     console.error('Invalid msg.', msg)
     return
   }
+
+  // `method` has `string` type here.
   const { method, params } = msg
   console.log({ method, params })
 })
