@@ -2,7 +2,7 @@ import type Predicate from './predicate.js'
 import type Predicated from './predicated.js'
 
 const partial =
-  <T extends Record<string, Predicate<unknown>>(kvs: T) =>
+  <T extends Record<string, Predicate<unknown>>>(kvs: T) =>
     (value: unknown): value is { [k in keyof T]?: Predicated<T[k]> } => {
       if (typeof value !== 'object' || value === null) {
         return false
