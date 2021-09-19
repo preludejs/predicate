@@ -1,6 +1,6 @@
 {
   "name": "@prelude/predicate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Predicate combinators.",
   "type": "module",
   "main": "index.js",
