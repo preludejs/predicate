@@ -21,6 +21,7 @@ import oneOf from './one-of.js'
 import partial from './partial.js'
 import record from './record.js'
 import regexp from './regexp.js'
+import rpc from './rpc.js'
 import safeInteger from './safe-integer.js'
 import strftime from './strftime.js'
 import string_ from './string.js'
@@ -58,6 +59,7 @@ export {
   Predicated,
   record,
   regexp,
+  rpc,
   safeInteger,
   strftime,
   string_ as string,
