@@ -1,4 +1,4 @@
-import * as $ from '../index.js'
+import * as $ from '../cjs/index.js'
 
 class Api {
   @$.rpc($.tuple($.number, $.number))

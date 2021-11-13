@@ -2,8 +2,6 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "importsNotUsedAsValues": "error",
-    "inlineSourceMap": true,
-    "inlineSources": true,
     "module": "ES2020",
     "moduleResolution": "Node",
     "noImplicitAny": false,
@@ -13,7 +11,7 @@
     "experimentalDecorators": true
   },
   "include": [
-    "**/*.ts"
+    "src"
   ],
   "exclude": [
     "node_modules"

@@ -1,4 +1,4 @@
-import * as $ from '../index.js'
+import * as $ from '../cjs/index.js'
 
 test('string', () => {
   const x = JSON.parse('"a"')
